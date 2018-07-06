@@ -1,0 +1,25 @@
+{
+  "name": "selenium-test-example",
+  "version": "1.0.0",
+  "description": "Boilerplate Selenium browser tests for MacOS and Firefox, running local Selenium.",
+  "main": "test-example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonjahr/selenium-test-example.git"
+  },
+  "keywords": [
+    "selenium"
+  ],
+  "author": "Jonathan Jahr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonjahr/selenium-test-example/issues"
+  },
+  "homepage": "https://github.com/jonjahr/selenium-test-example#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
