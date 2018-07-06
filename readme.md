@@ -22,7 +22,7 @@ Many paid services let you run Selenium tests, such as:
 - [Experitest](https://experitest.com)
 - [CrossBrowserTesting](https://crossbrowsertesting.com)
 
-[Jenkins](https://jenkins.io/doc/) is an automation server that can automate tasks related to testing web apps (as well as building and deploying them). Jenkins can be used to manage running
+[Jenkins](https://jenkins.io/doc/) is an automation server that can automate tasks related to testing web apps (as well as building and deploying them). Most often Jenkins is used to run JavaScript unit tests. But Jenkins can also run Selenium tests, and could be useful if you have many tests, or are using a Grid, etc.
 
 For a browser instance to receive Selenium commands, you must have the Selenium browser driver installed. Drivers exist for all major browsers in many operating systems.
 
