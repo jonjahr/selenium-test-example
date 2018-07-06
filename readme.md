@@ -28,24 +28,22 @@ For a browser instance to receive Selenium commands, you must have the Selenium 
 
 ## Quick Start
 
-To run Selenium browser tests, you'll need the `selenium-webdriver` node package and the Selenium browser driver for your preferred browser(s).
-
 ### Download everything
 
-First, add the [Selenium Webdriver](https://www.npmjs.com/package/selenium-webdriver) node package to your project:
+First, we need to install the [Selenium Webdriver](https://www.npmjs.com/package/selenium-webdriver) node package to our project. This will let us write our tests in JavaScript, and it can convert them into Selenium browser commands. (There are also bindings for other languages including Python, etc)
 
 ```
 yarn add selenium-webdriver
 ```
 
-Next, install [Firefox Geckodriver](https://github.com/mozilla/geckodriver/releases). Or, see the [full list of drivers at SeleniumHQ](https://www.seleniumhq.org/download/). In my case, I downloaded the Firefox MacOS tarball into `~/selenium-browser-testing/` and extracted it. I added this path to the bottom of `~/.zshrc` and restarted my shell:
+Next, we need to install [Firefox Geckodriver](https://github.com/mozilla/geckodriver/releases). Selenium drivers allow browsers to receive Selenium commands (browsers aren't Selenium-enabled by default). Drivers for most browsers [are available at SeleniumHQ](https://www.seleniumhq.org/download/). In my case, I downloaded the Firefox MacOS tarball into `~/selenium-browser-testing/` and extracted it. I added this path to the bottom of `~/.zshrc`:
 
 ```
 # Add WebDriver browser drivers to PATH
 export PATH=$PATH:/Users/jjahr/selenium-browser-testing
 ```
 
-Now, typing `which geckodriver` should show that it's in this path.
+Next, restart your terminal. Now, enter `which geckodriver` and it should show that it can find the binary that it will run.
 
 Now we're ready to run the tests!
 
